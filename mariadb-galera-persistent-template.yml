@@ -75,7 +75,7 @@ objects:
       spec:
         containers:
         - name: "${GALERA_PETSET_NAME}"
-          image: annatech/k8s-mariadb-galera-centos:v005
+          image: annatech/openshift-mariadb-galera:v005
           imagePullPolicy: IfNotPresent
           ports:
           - containerPort: 3306
